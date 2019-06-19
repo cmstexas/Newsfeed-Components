@@ -54,3 +54,10 @@ let articles = document.querySelectorAll('.article');
 
 //STRETCH -- Add read button and make it disapear on click//
 
+    const buttonDisapear = document.querySelectorAll('.readbutton');
+    buttonDisapear.forEach((readbutton) => {
+        readbutton.addEventListener('click', (event) => {
+        event.target.style.visibility = 'hidden';
+        event.stopPropagation;
+    });
+})
