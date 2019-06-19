@@ -52,7 +52,7 @@ let articles = document.querySelectorAll('.article');
 
 
 
-//STRETCH -- Add read button and make it disapear on click//
+//STRETCH -- Add read button and make them all disapear on click - changed to selectAll//
 
     const buttonDisapear = document.querySelectorAll('.readbutton');
     buttonDisapear.forEach((readbutton) => {
